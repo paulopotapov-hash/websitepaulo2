@@ -1,0 +1,41 @@
+{
+  "name": "paulowebsite2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "fidelity:reference": "playwright test -c playwright.fidelity.config.ts fidelity/measure-wix.spec.ts",
+    "fidelity:current": "playwright test -c playwright.fidelity.config.ts fidelity/measure-react.spec.ts",
+    "fidelity:compare": "tsx fidelity/compare-fidelity.ts",
+    "fidelity:compare:strict": "FIDELITY_MODE=strict tsx fidelity/compare-fidelity.ts",
+    "fidelity:validate": "tsx --test fidelity/tests/*.test.ts",
+    "fidelity": "npm run fidelity:current && npm run fidelity:compare",
+    "fidelity:all": "npm run fidelity:reference && npm run fidelity",
+    "test": "npm run fidelity:validate"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@types/pixelmatch": "^5.2.6",
+    "@types/pngjs": "^6.0.5",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.6",
+    "globals": "^17.12.0",
+    "pixelmatch": "^7.2.0",
+    "pngjs": "^7.0.0",
+    "tsx": "^4.23.15",
+    "vite": "^8.3.0"
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "fontResponses": [
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.logVsmFeaturesModuleDiff%2C.motionTimeAnimationsCSS%2C.resolveManifestInTB%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5627.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=a45af577.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-features&originalLanguage=en&pageId=7498c2_932496830e1469793133638ba0a0c1e0_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.logVsmFeaturesModuleDiff%2C.motionTimeAnimationsCSS%2C.resolveManifestInTB%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5627.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=a45af577.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-features&originalLanguage=en&pageId=7498c2_4c16d6de19262298e80472f0dd8038f1_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.resolveManifestInTB%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5627.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=f9ff3d63.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-platform&originalLanguage=en&pageId=7498c2_4c16d6de19262298e80472f0dd8038f1_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.resolveManifestInTB%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5627.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=f9ff3d63.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-platform&originalLanguage=en&pageId=7498c2_932496830e1469793133638ba0a0c1e0_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/WixMadefor/v3/WixMadeforTextVF_W_Wght.woff2",
+      "status": 200,
+      "contentType": "application/octet-stream"
+    },
+    {
+      "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/h3r77AwDsldr1E_2g4qqGPk_vArhqVIZ0nv9q090hN8.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://static.parastorage.com/fonts/v2/e3cf8f7e-35c4-446f-9b93-de93e989f66f/v1/lulo-clean-w01-one-bold.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/rijG6I_IOXJjsH07UEo2mw.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://static.parastorage.com/fonts/v2/e59e6f5c-7ac5-47cf-8fe5-22ee5f11aa42/v1/open%20sans.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.logVsmFeaturesModuleDiff%2C.motionTimeAnimationsCSS%2C.resolveManifestInTB%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5627.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=a45af577.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-features&originalLanguage=en&pageId=7498c2_932496830e1469793133638ba0a0c1e0_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.logVsmFeaturesModuleDiff%2C.motionTimeAnimationsCSS%2C.resolveManifestInTB%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5627.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=a45af577.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-features&originalLanguage=en&pageId=7498c2_4c16d6de19262298e80472f0dd8038f1_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.resolveManifestInTB%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5627.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=f9ff3d63.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-platform&originalLanguage=en&pageId=7498c2_4c16d6de19262298e80472f0dd8038f1_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.logVsmFeaturesModuleDiff%2C.motionTimeAnimationsCSS%2C.resolveManifestInTB%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5627.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=a45af577.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-features&originalLanguage=en&pageId=7498c2_4c16d6de19262298e80472f0dd8038f1_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.resolveManifestInTB%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5627.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=f9ff3d63.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-platform&originalLanguage=en&pageId=7498c2_932496830e1469793133638ba0a0c1e0_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.logVsmFeaturesModuleDiff%2C.motionTimeAnimationsCSS%2C.resolveManifestInTB%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldUseResponsiveImages%2C.splitSlotSelectors%2C.stopResolvingInnerSelectors_VAG%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5627.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fromeu848.wixsite.com%2Fwebsite-2&fileId=a45af577.bundle.min&formFactor=desktop&freemiumBanner=true&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en-us&metaSiteId=dcba6edd-817d-44ba-96be-0703d185114e&module=thunderbolt-features&originalLanguage=en&pageId=7498c2_932496830e1469793133638ba0a0c1e0_7.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15531.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=5bcfbd9c-1efc-45d1-9aab-6b19d426cf87&siteRevision=7&staticHTMLComponentUrl=https%3A%2F%2Fromeu848-wixsite-com.filesusr.com%2F&useSandboxInHTMLComp=true&viewMode=desktop",
+      "status": 200,
+      "contentType": "application/json"
+    }
+  ],
+  "imgResponses": [
+    {
+      "url": "https://static.wixstatic.com/media/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg/v1/fill/w_147,h_83,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg",
+      "status": 200,
+      "contentType": "image/avif"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg/v1/fill/w_1440,h_646,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg",
+      "status": 200,
+      "contentType": "image/avif"
+    }
+  ],
+  "elements": [
+    {
+      "text": "UltraBot",
+      "tag": "A",
+      "id": "",
+      "cls": "qMvpu5",
+      "rect": {
+        "x": 782,
+        "y": 93,
+        "width": 87,
+        "height": 50
+      },
+      "style": {
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)"
+      }
+    },
+    {
+      "text": "Benefits",
+      "tag": "A",
+      "id": "",
+      "cls": "qMvpu5",
+      "rect": {
+        "x": 869,
+        "y": 93,
+        "width": 87,
+        "height": 50
+      },
+      "style": {
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)"
+      }
+    },
+    {
+      "text": "The Company",
+      "tag": "A",
+      "id": "",
+      "cls": "qMvpu5",
+      "rect": {
+        "x": 956,
+        "y": 93,
+        "width": 134,
+        "height": 50
+      },
+      "style": {
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)"
+      }
+    },
+    {
+      "text": "Project",
+      "tag": "A",
+      "id": "",
+      "cls": "qMvpu5",
+      "rect": {
+        "x": 1090,
+        "y": 93,
+        "width": 80,
+        "height": 50
+      },
+      "style": {
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)"
+      }
+    },
+    {
+      "text": "Contacts",
+      "tag": "A",
+      "id": "",
+      "cls": "qMvpu5",
+      "rect": {
+        "x": 1170,
+        "y": 93,
+        "width": 98,
+        "height": 50
+      },
+      "style": {
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)"
+      }
+    },
+    {
+      "text": "Robotic disinfection solutions for healthcare facilities",
+      "tag": "DIV",
+      "id": "comp-ktvgvqeg",
+      "cls": "N8MGzv _v6ohL AWXfZq PO9MfV comp-ktvgvqeg wixui-rich-text",
+      "rect": {
+        "x": 231,
+        "y": 487,
+        "width": 980,
+        "height": 47
+      },
+      "style": {
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "text": "We work to make the greatest technological advances to reach hospitals, where it can be most beneficial.",
+      "found": false
+    }
+  ],
+  "fontFaces": [
+    {
+      "family": "wixFreemiumFontW01-35Thin",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW01-45Ligh",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW01-55Roma",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW01-65Medi",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW02-35Thin",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW02-45Ligh",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW02-55Roma",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW02-65Medi",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW10-35Thin",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW10-45Ligh",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW10-65Medi",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "wixFreemiumFontW10-55Roma",
+      "weight": "normal",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "Madefor-Text",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "loaded",
+      "display": "swap"
+    },
+    {
+      "family": "din-next-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "din-next-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "din-next-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "helvetica-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "helvetica-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "open sans",
+      "weight": "700",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "open sans",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "loaded",
+      "display": "swap"
+    },
+    {
+      "family": "open sans",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "open sans",
+      "weight": "400",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "loaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "loaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-semibold",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-semibold",
+      "weight": "700",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-semibold",
+      "weight": "400",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-semibold",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "loaded",
+      "display": "swap"
+    },
+    {
+      "family": "lulo-clean-w01-one-bold",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "lulo-clean-w01-one-bold",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "loaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "loaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "normal",
+      "stretch": "normal",
+      "status": "loaded",
+      "display": "swap"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "italic",
+      "stretch": "normal",
+      "status": "unloaded",
+      "display": "swap"
+    }
+  ],
+  "faceRules": [
+    "@font-face { font-family: poppins; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VGdeOYktMqlap.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }",
+    "@font-face { font-family: poppins-extralight; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/h3r77AwDsldr1E_2g4qqGPk_vArhqVIZ0nv9q090hN8.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-extralight; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/Fm41upUVp7KTKUZhL0PfQVtXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-extralight; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/rijG6I_IOXJjsH07UEo2mw.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-extralight; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/-GlaWpWcSgdVagNuOGuFKRUOjZSKWg4xBWp_C_qQx0o.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-semibold; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/aDjpMND83pDErGXlVEr-Sfk_vArhqVIZ0nv9q090hN8.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-semibold; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/c4FPK8_hIFKoX59qcGwdChUOjZSKWg4xBWp_C_qQx0o.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-semibold; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/RbebACOccNN-5ixkDIVLjRUOjZSKWg4xBWp_C_qQx0o.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-semibold; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VGdeOYktMqlap.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }",
+    "@font-face { font-family: poppins; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }",
+    "@font-face { font-family: poppins-extralight; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/h3r77AwDsldr1E_2g4qqGPk_vArhqVIZ0nv9q090hN8.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-extralight; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/Fm41upUVp7KTKUZhL0PfQVtXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-extralight; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/rijG6I_IOXJjsH07UEo2mw.woff2\") format(\"woff2\"); font-display: swap; }",
+    "@font-face { font-family: poppins-extralight; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/-GlaWpWcSgdVagNuOGuFKRUOjZSKWg4xBWp_C_qQx0o.woff2\") format(\"woff2\"); font-display: swap; }"
+  ],
+  "imgs": [
+    {
+      "src": "https://static.wixstatic.com/media/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg/v1/fill/w_1440,h_646,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg",
+      "currentSrc": "https://static.wixstatic.com/media/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg/v1/fill/w_1440,h_646,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg",
+      "naturalWidth": 1440,
+      "naturalHeight": 646,
+      "rect": {
+        "x": 0,
+        "y": 187,
+        "width": 1440,
+        "height": 646
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    }
+  ],
+  "ready": "complete"
+}

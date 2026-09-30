@@ -1,0 +1,15 @@
+.intro {
+  position: relative;
+  width: 100%;
+  padding-top: 34px;
+}
+
+.intro-reeman-image {
+  display: block;
+  width: 709px;
+  height: 431px;
+  margin: 0 auto;
+
+  object-fit: cover;
+  object-position: 50% 50%;
+}

@@ -1,0 +1,730 @@
+{
+  "generatedAt": "2026-09-30T15:15:22.076Z",
+  "mode": "implemented",
+  "viewports": {
+    "1280": {
+      "status": "REAL_VISUAL_MISMATCH",
+      "compatibility": {
+        "compatible": true,
+        "status": "PASS",
+        "differences": []
+      },
+      "captureHealth": {
+        "reference": "PASS",
+        "current": "PASS",
+        "pass": true
+      },
+      "coverage": {
+        "implementedAnchors": 9,
+        "referenceAnchors": 18,
+        "percent": 50,
+        "implementedRegions": [
+          "hero",
+          "reeman",
+          "pharmarobot",
+          "ultrabot"
+        ],
+        "referenceRegions": 8,
+        "missingRegions": [
+          "wideImage",
+          "features",
+          "innovation",
+          "whatWeDo"
+        ]
+      },
+      "fontDifferences": [],
+      "implementedMetrics": {
+        "pass": 238,
+        "total": 240,
+        "failed": [
+          {
+            "metric": "texts.ultrabotIntro.height",
+            "reference": 29,
+            "actual": 60,
+            "delta": 31,
+            "tolerance": 2,
+            "pass": false,
+            "classification": "REAL_VISUAL_MISMATCH"
+          },
+          {
+            "metric": "texts.ultrabotIntro.lineCount",
+            "reference": 1,
+            "actual": 2,
+            "delta": 1,
+            "tolerance": 0,
+            "pass": false,
+            "classification": "REAL_VISUAL_MISMATCH"
+          }
+        ]
+      },
+      "regionPixels": {
+        "navbar": {
+          "status": "PASS",
+          "pct": 0.95,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "navbar"
+            },
+            "x": 0,
+            "y": 50,
+            "width": 1280,
+            "height": 143
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "navbar"
+            },
+            "x": 0,
+            "y": 50,
+            "width": 1280,
+            "height": 143
+          }
+        },
+        "hero": {
+          "status": "PASS",
+          "pct": 0.79,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "hero",
+              "subtitle",
+              "heroImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "heroImage"
+            },
+            "x": 0,
+            "y": 187,
+            "width": 1280,
+            "height": 646
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "hero",
+              "subtitle",
+              "heroImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "heroImage"
+            },
+            "x": 0,
+            "y": 187,
+            "width": 1280,
+            "height": 646
+          }
+        },
+        "reeman": {
+          "status": "PASS",
+          "pct": 0.03,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "reemanImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "reemanImage"
+            },
+            "x": 285,
+            "y": 867,
+            "width": 709,
+            "height": 431
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "reemanImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "reemanImage"
+            },
+            "x": 285.5,
+            "y": 867,
+            "width": 709,
+            "height": 431
+          }
+        },
+        "pharmarobot": {
+          "status": "PASS",
+          "pct": 0.09,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "pharmarobot",
+              "pharmaImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "pharmaImage"
+            },
+            "x": 242,
+            "y": 1383,
+            "width": 313,
+            "height": 399
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "pharmarobot",
+              "pharmaImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "pharmaImage"
+            },
+            "x": 242,
+            "y": 1383,
+            "width": 313,
+            "height": 399
+          }
+        },
+        "ultrabot": {
+          "status": "PASS",
+          "pct": 0.26,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "ultrabot",
+              "ultrabotImage",
+              "ultrabotIntro"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "ultrabotImage"
+            },
+            "x": 311,
+            "y": 1819,
+            "width": 658,
+            "height": 445
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "ultrabot",
+              "ultrabotImage",
+              "ultrabotIntro"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "ultrabotImage"
+            },
+            "x": 311,
+            "y": 1819,
+            "width": 658,
+            "height": 445
+          }
+        }
+      },
+      "fullPage": {
+        "status": "INCOMPLETE"
+      }
+    },
+    "1440": {
+      "status": "REAL_VISUAL_MISMATCH",
+      "compatibility": {
+        "compatible": true,
+        "status": "PASS",
+        "differences": []
+      },
+      "captureHealth": {
+        "reference": "PASS",
+        "current": "PASS",
+        "pass": true
+      },
+      "coverage": {
+        "implementedAnchors": 9,
+        "referenceAnchors": 18,
+        "percent": 50,
+        "implementedRegions": [
+          "hero",
+          "reeman",
+          "pharmarobot",
+          "ultrabot"
+        ],
+        "referenceRegions": 8,
+        "missingRegions": [
+          "wideImage",
+          "features",
+          "innovation",
+          "whatWeDo"
+        ]
+      },
+      "fontDifferences": [],
+      "implementedMetrics": {
+        "pass": 238,
+        "total": 240,
+        "failed": [
+          {
+            "metric": "texts.ultrabotIntro.height",
+            "reference": 29,
+            "actual": 60,
+            "delta": 31,
+            "tolerance": 2,
+            "pass": false,
+            "classification": "REAL_VISUAL_MISMATCH"
+          },
+          {
+            "metric": "texts.ultrabotIntro.lineCount",
+            "reference": 1,
+            "actual": 2,
+            "delta": 1,
+            "tolerance": 0,
+            "pass": false,
+            "classification": "REAL_VISUAL_MISMATCH"
+          }
+        ]
+      },
+      "regionPixels": {
+        "navbar": {
+          "status": "PASS",
+          "pct": 0.84,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "navbar"
+            },
+            "x": 0,
+            "y": 50,
+            "width": 1440,
+            "height": 143
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "navbar"
+            },
+            "x": 0,
+            "y": 50,
+            "width": 1440,
+            "height": 143
+          }
+        },
+        "hero": {
+          "status": "PASS",
+          "pct": 0.71,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "hero",
+              "subtitle",
+              "heroImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "heroImage"
+            },
+            "x": 0,
+            "y": 187,
+            "width": 1440,
+            "height": 646
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "hero",
+              "subtitle",
+              "heroImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "heroImage"
+            },
+            "x": 0,
+            "y": 187,
+            "width": 1440,
+            "height": 646
+          }
+        },
+        "reeman": {
+          "status": "PASS",
+          "pct": 0.03,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "reemanImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "reemanImage"
+            },
+            "x": 365,
+            "y": 867,
+            "width": 709,
+            "height": 431
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "reemanImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "reemanImage"
+            },
+            "x": 365.5,
+            "y": 867,
+            "width": 709,
+            "height": 431
+          }
+        },
+        "pharmarobot": {
+          "status": "PASS",
+          "pct": 0.09,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "pharmarobot",
+              "pharmaImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "pharmaImage"
+            },
+            "x": 322,
+            "y": 1383,
+            "width": 313,
+            "height": 399
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "pharmarobot",
+              "pharmaImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "pharmaImage"
+            },
+            "x": 322,
+            "y": 1383,
+            "width": 313,
+            "height": 399
+          }
+        },
+        "ultrabot": {
+          "status": "PASS",
+          "pct": 0.26,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "ultrabot",
+              "ultrabotImage",
+              "ultrabotIntro"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "ultrabotImage"
+            },
+            "x": 391,
+            "y": 1819,
+            "width": 658,
+            "height": 445
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "ultrabot",
+              "ultrabotImage",
+              "ultrabotIntro"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "ultrabotImage"
+            },
+            "x": 391,
+            "y": 1819,
+            "width": 658,
+            "height": 445
+          }
+        }
+      },
+      "fullPage": {
+        "status": "INCOMPLETE"
+      }
+    },
+    "1920": {
+      "status": "REAL_VISUAL_MISMATCH",
+      "compatibility": {
+        "compatible": true,
+        "status": "PASS",
+        "differences": []
+      },
+      "captureHealth": {
+        "reference": "PASS",
+        "current": "PASS",
+        "pass": true
+      },
+      "coverage": {
+        "implementedAnchors": 9,
+        "referenceAnchors": 18,
+        "percent": 50,
+        "implementedRegions": [
+          "hero",
+          "reeman",
+          "pharmarobot",
+          "ultrabot"
+        ],
+        "referenceRegions": 8,
+        "missingRegions": [
+          "wideImage",
+          "features",
+          "innovation",
+          "whatWeDo"
+        ]
+      },
+      "fontDifferences": [],
+      "implementedMetrics": {
+        "pass": 238,
+        "total": 240,
+        "failed": [
+          {
+            "metric": "texts.ultrabotIntro.height",
+            "reference": 29,
+            "actual": 60,
+            "delta": 31,
+            "tolerance": 2,
+            "pass": false,
+            "classification": "REAL_VISUAL_MISMATCH"
+          },
+          {
+            "metric": "texts.ultrabotIntro.lineCount",
+            "reference": 1,
+            "actual": 2,
+            "delta": 1,
+            "tolerance": 0,
+            "pass": false,
+            "classification": "REAL_VISUAL_MISMATCH"
+          }
+        ]
+      },
+      "regionPixels": {
+        "navbar": {
+          "status": "PASS",
+          "pct": 0.63,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "navbar"
+            },
+            "x": 0,
+            "y": 50,
+            "width": 1920,
+            "height": 143
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "navbar"
+            },
+            "x": 0,
+            "y": 50,
+            "width": 1920,
+            "height": 143
+          }
+        },
+        "hero": {
+          "status": "PASS",
+          "pct": 0.53,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "hero",
+              "subtitle",
+              "heroImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "heroImage"
+            },
+            "x": 0,
+            "y": 187,
+            "width": 1920,
+            "height": 646
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "hero",
+              "subtitle",
+              "heroImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "heroImage"
+            },
+            "x": 0,
+            "y": 187,
+            "width": 1920,
+            "height": 646
+          }
+        },
+        "reeman": {
+          "status": "PASS",
+          "pct": 0.03,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "reemanImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "reemanImage"
+            },
+            "x": 605,
+            "y": 867,
+            "width": 709,
+            "height": 431
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "reemanImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "reemanImage"
+            },
+            "x": 605.5,
+            "y": 867,
+            "width": 709,
+            "height": 431
+          }
+        },
+        "pharmarobot": {
+          "status": "PASS",
+          "pct": 0.09,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "pharmarobot",
+              "pharmaImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "pharmaImage"
+            },
+            "x": 562,
+            "y": 1383,
+            "width": 313,
+            "height": 399
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "pharmarobot",
+              "pharmaImage"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "pharmaImage"
+            },
+            "x": 562,
+            "y": 1383,
+            "width": 313,
+            "height": 399
+          }
+        },
+        "ultrabot": {
+          "status": "PASS",
+          "pct": 0.26,
+          "pass": true,
+          "referenceRect": {
+            "found": true,
+            "anchors": [
+              "ultrabot",
+              "ultrabotImage",
+              "ultrabotIntro"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "ultrabotImage"
+            },
+            "x": 631,
+            "y": 1819,
+            "width": 658,
+            "height": 445
+          },
+          "currentRect": {
+            "found": true,
+            "anchors": [
+              "ultrabot",
+              "ultrabotImage",
+              "ultrabotIntro"
+            ],
+            "missingAnchors": [],
+            "rectSource": {
+              "type": "anchor",
+              "anchor": "ultrabotImage"
+            },
+            "x": 631,
+            "y": 1819,
+            "width": 658,
+            "height": 445
+          }
+        }
+      },
+      "fullPage": {
+        "status": "INCOMPLETE"
+      }
+    }
+  },
+  "overall": {
+    "pass": false,
+    "mode": "implemented"
+  }
+}

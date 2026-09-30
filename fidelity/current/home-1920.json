@@ -1,0 +1,1346 @@
+{
+  "schemaVersion": 2,
+  "metricSchemaVersion": 2,
+  "configFingerprint": "sha256:384e4dc746104d0de8cd457abaedcbb4cb16585f2fc9e13f0b5f2cbafd5a1017",
+  "compatibility": {
+    "schemaVersion": 2,
+    "metricSchemaVersion": 2,
+    "anchors": {
+      "hero": {
+        "kind": "text",
+        "wix": {
+          "textStartsWith": "We work to make the greatest technological advances"
+        }
+      },
+      "heroImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "11062b_79271b7012564ed497d2774a895ab7fdf000"
+        },
+        "react": {
+          "selector": ".hero-image"
+        }
+      },
+      "subtitle": {
+        "kind": "text",
+        "wix": {
+          "textStartsWith": "Robotic disinfection solutions"
+        }
+      },
+      "reemanImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_ebe792615c2b41d3835fc2038a64627f"
+        },
+        "react": {
+          "selector": ".intro-reeman-image"
+        }
+      },
+      "pharmarobot": {
+        "kind": "text",
+        "wix": {
+          "textExact": "PharmaRobot"
+        },
+        "react": {
+          "selector": ".pharmarobot-title"
+        }
+      },
+      "pharmaImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_5ccaff505c0f4fab806bcda66bc3a164"
+        },
+        "react": {
+          "selector": ".pharmarobot-image"
+        }
+      },
+      "ultrabot": {
+        "kind": "text",
+        "wix": {
+          "textExact": "UltraBot"
+        },
+        "react": {
+          "selector": ".ultrabot-title"
+        }
+      },
+      "ultrabotImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_de1c1e1290ae46199dc03b7d9211ec0b"
+        },
+        "react": {
+          "selector": ".ultrabot-image"
+        }
+      },
+      "ultrabotIntro": {
+        "kind": "text",
+        "wix": {
+          "textStartsWith": "Introducing the UltraBot"
+        },
+        "react": {
+          "selector": ".ultrabot-intro"
+        }
+      },
+      "wideImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_9866e3f7762646c6be5f033e69c27c7b"
+        }
+      },
+      "safety": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Safety"
+        }
+      },
+      "autonomousNavigation": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Autonomous Navigation"
+        }
+      },
+      "criticalZoneCoverage": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Critical Zone Coverage"
+        }
+      },
+      "setAndForget": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Set and Forget"
+        }
+      },
+      "innovation": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Innovation"
+        }
+      },
+      "innovationImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_45c6ceb8135746fba2ba48a1c3ec2767"
+        }
+      },
+      "whatWeDo": {
+        "kind": "text",
+        "wix": {
+          "textExact": "What We Do"
+        }
+      },
+      "engineersImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "11062b_0b96bc1023ad478aa0e11510b179795e"
+        }
+      }
+    },
+    "sectionsObserved": {
+      "hero": [
+        "hero",
+        "subtitle",
+        "heroImage"
+      ],
+      "intro": [
+        "reemanImage"
+      ],
+      "pharmarobot": [
+        "pharmarobot",
+        "pharmaImage"
+      ],
+      "ultrabot": [
+        "ultrabot",
+        "ultrabotImage",
+        "ultrabotIntro"
+      ],
+      "wideImage": [
+        "wideImage"
+      ],
+      "features": [
+        "safety",
+        "autonomousNavigation",
+        "criticalZoneCoverage",
+        "setAndForget"
+      ],
+      "innovation": [
+        "innovation",
+        "innovationImage"
+      ],
+      "whatWeDo": [
+        "whatWeDo",
+        "engineersImage"
+      ]
+    },
+    "regions": {
+      "navbar": {
+        "rect": {
+          "type": "navbar"
+        },
+        "anchors": []
+      },
+      "hero": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "heroImage"
+        },
+        "anchors": [
+          "hero",
+          "subtitle",
+          "heroImage"
+        ]
+      },
+      "reeman": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "reemanImage"
+        },
+        "anchors": [
+          "reemanImage"
+        ]
+      },
+      "pharmarobot": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "pharmaImage"
+        },
+        "anchors": [
+          "pharmarobot",
+          "pharmaImage"
+        ]
+      },
+      "ultrabot": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "ultrabotImage"
+        },
+        "anchors": [
+          "ultrabot",
+          "ultrabotImage",
+          "ultrabotIntro"
+        ]
+      },
+      "wideImage": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "wideImage"
+        },
+        "anchors": [
+          "wideImage"
+        ]
+      },
+      "features": {
+        "rect": {
+          "type": "anchorBounds"
+        },
+        "anchors": [
+          "safety",
+          "autonomousNavigation",
+          "criticalZoneCoverage",
+          "setAndForget"
+        ]
+      },
+      "innovation": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "innovationImage"
+        },
+        "anchors": [
+          "innovation",
+          "innovationImage"
+        ]
+      },
+      "whatWeDo": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "engineersImage"
+        },
+        "anchors": [
+          "whatWeDo",
+          "engineersImage"
+        ]
+      }
+    },
+    "implementedRegions": [
+      "navbar",
+      "hero",
+      "reeman",
+      "pharmarobot",
+      "ultrabot"
+    ],
+    "chromeSelectors": {
+      "wix": {
+        "navbar": "header#SITE_HEADER, header",
+        "footer": "footer#SITE_FOOTER, footer"
+      },
+      "react": {
+        "navbar": "[data-fidelity=\"navbar\"]",
+        "footer": "[data-fidelity=\"footer\"]"
+      }
+    },
+    "normalization": {
+      "hideSelectors": {
+        "wix": [
+          "#WIX_ADS"
+        ],
+        "react": []
+      },
+      "css": "*,*::before,*::after{animation-duration:0s!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:0s!important;transition-delay:0s!important;scroll-behavior:auto!important;caret-color:transparent!important}",
+      "scrollStepRatio": 0.5,
+      "scrollWaitMs": 150,
+      "saveHtmlSnapshot": {
+        "wix": true,
+        "react": false
+      },
+      "chromiumArgs": [
+        "--font-render-hinting=none",
+        "--disable-lcd-text"
+      ]
+    },
+    "requiredFonts": [
+      {
+        "family": "Poppins",
+        "weight": "400",
+        "sample": "We work to make the greatest technological advances"
+      },
+      {
+        "family": "Poppins",
+        "weight": "700",
+        "sample": "Robotic disinfection solutions for healthcare facilities"
+      }
+    ],
+    "comparison": {
+      "pixel": {
+        "threshold": 0.1,
+        "includeAA": true,
+        "maxMismatchPercent": 1,
+        "sectionMaxMismatchPercent": 1
+      },
+      "toleranceRules": [
+        {
+          "match": "/\\.(src|alt|currentSrc|naturalWidth|naturalHeight|matchCount|wix)(\\.|$)/",
+          "kind": "skip",
+          "note": "asset URLs / Wix-only crop info"
+        },
+        {
+          "match": "/\\.(fontFamily|fontSize|fontWeight|lineHeight|letterSpacing|textAlign|color|textTransform|textShadow|textStroke|opacity|text|objectFit|objectPosition|naturalWidth|naturalHeight|display|position|flexDirection|gridTemplateColumns|justifyContent|alignItems|backgroundColor|backgroundSize|backgroundPosition|lineCount|found)$|^global\\.(visibleImageCount|navItemCount|sectionsFound)$/",
+          "kind": "exact",
+          "note": "typography & discrete values must match exactly"
+        },
+        {
+          "match": "/^global\\.totalHeight$/",
+          "kind": "numeric",
+          "tolerance": 5,
+          "note": "total page height"
+        },
+        {
+          "match": "/^global\\.sectionsObservedFound$/",
+          "kind": "skip",
+          "note": "diagnostic LCA observation only"
+        },
+        {
+          "match": "/^sections\\.[^.]+\\.(height|end)$/",
+          "kind": "numeric",
+          "tolerance": 2,
+          "note": "section height"
+        },
+        {
+          "match": "/^texts\\.[^.]+\\.(x|y|width|height)$/",
+          "kind": "numeric",
+          "tolerance": 2,
+          "note": "text position"
+        },
+        {
+          "match": "/\\.(x|y|width|height)$/",
+          "kind": "numeric",
+          "tolerance": 1
+        },
+        {
+          "match": "/(margin|padding)(Top|Right|Bottom|Left)$|\\.(gap|rowGap|columnGap)$|[rR]adius/",
+          "kind": "numeric",
+          "tolerance": 1
+        }
+      ]
+    },
+    "serverMarker": {
+      "selector": "meta[name=\"fidelity-build\"]",
+      "content": "paulowebsite2"
+    },
+    "deviceScaleFactor": 1,
+    "viewports": [
+      {
+        "name": "1920",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "name": "1440",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "name": "1280",
+        "width": 1280,
+        "height": 800
+      }
+    ],
+    "playwrightVersion": "1.63.0",
+    "browserVersion": "153.0.8010.12"
+  },
+  "source": "react",
+  "url": "http://localhost:4197/",
+  "page": "/",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "deviceScaleFactor": 1,
+  "timestamp": "2026-09-30T15:15:10.622Z",
+  "playwrightVersion": "1.63.0",
+  "browserVersion": "153.0.8010.12",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "normalization": {
+    "hiddenSelectors": [],
+    "hiddenElementHeights": {},
+    "totalHeightBeforeHide": 2885,
+    "totalHeightAfterNormalization": 2885,
+    "navbarTopBeforeHide": 50,
+    "navbarTopAfterNormalization": 50,
+    "css": "*,*::before,*::after{animation-duration:0s!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:0s!important;transition-delay:0s!important;scroll-behavior:auto!important;caret-color:transparent!important}",
+    "lazyLoadScroll": {
+      "stepRatio": 0.5,
+      "waitMs": 150
+    },
+    "screenshot": {
+      "fullPage": true,
+      "animations": "disabled",
+      "caret": "hide",
+      "scale": "css"
+    }
+  },
+  "screenshot": {
+    "path": "fidelity/screenshots/current/home-1920.png",
+    "width": 1920,
+    "height": 2885
+  },
+  "metricDefinitions": {
+    "coordinates": "x/y in CSS px relative to the document (rect + scroll offset), device scale factor 1",
+    "global.totalHeight": "document.documentElement.scrollHeight",
+    "global.scrollWidth": "document.documentElement.scrollWidth",
+    "sections.<name>": "bounding box of the container found by climbing from the common ancestor of the section anchors until another section anchor / navbar / footer would be included",
+    "texts.<name>": "Range.getBoundingClientRect() over the matched text node + computed style of its parent element",
+    "images.<name>": "bounding box + computed object-fit/position/radius of the matched <img> (or background element)",
+    "nav.items": "visible links/buttons inside the navbar; gaps = next.x - (prev.x + prev.width)",
+    "behaviors / fonts / duplicates / animationsAtLoad": "reference-only observations, not compared"
+  },
+  "global": {
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "scrollWidth": 1920,
+    "totalHeight": 2885,
+    "navbarHeight": 143,
+    "footerHeight": 372,
+    "visibleImageCount": 5,
+    "navItemCount": 5,
+    "sectionsObservedFound": 4
+  },
+  "nav": {
+    "x": 0,
+    "y": 50,
+    "width": 1920,
+    "height": 143,
+    "position": "sticky",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "items": [
+      {
+        "text": "UltraBot",
+        "x": 782,
+        "y": 93,
+        "width": 87,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      },
+      {
+        "text": "Benefits",
+        "x": 869,
+        "y": 93,
+        "width": 87,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      },
+      {
+        "text": "The Company",
+        "x": 956,
+        "y": 93,
+        "width": 134,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      },
+      {
+        "text": "Project",
+        "x": 1090,
+        "y": 93,
+        "width": 80,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      },
+      {
+        "text": "Contacts",
+        "x": 1170,
+        "y": 93,
+        "width": 98,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      }
+    ],
+    "gaps": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "logo": {
+      "x": 217,
+      "y": 107,
+      "width": 192,
+      "height": 44,
+      "naturalWidth": 192,
+      "naturalHeight": 44
+    }
+  },
+  "footer": {
+    "x": 0,
+    "y": 2513.05,
+    "width": 1920,
+    "height": 372,
+    "layout": {
+      "display": "block",
+      "position": "relative",
+      "marginTop": 0,
+      "marginRight": 0,
+      "marginBottom": 0,
+      "marginLeft": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "gap": "normal",
+      "rowGap": "normal",
+      "columnGap": "normal",
+      "maxWidth": "none",
+      "minWidth": 0,
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gridTemplateColumns": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    }
+  },
+  "sectionsObserved": {
+    "hero": {
+      "found": true,
+      "anchors": [
+        "hero",
+        "subtitle",
+        "heroImage"
+      ],
+      "x": 0,
+      "y": 187,
+      "width": 1920,
+      "height": 646,
+      "start": 187,
+      "end": 833,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 44,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 0,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 3
+    },
+    "intro": {
+      "found": true,
+      "anchors": [
+        "reemanImage"
+      ],
+      "x": 0,
+      "y": 833,
+      "width": 1920,
+      "height": 465,
+      "start": 833,
+      "end": 1298,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 34,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 0,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 1
+    },
+    "pharmarobot": {
+      "found": true,
+      "anchors": [
+        "pharmarobot",
+        "pharmaImage"
+      ],
+      "x": 0,
+      "y": 1333,
+      "width": 1920,
+      "height": 459,
+      "start": 1333,
+      "end": 1792,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 35,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 0,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 2
+    },
+    "ultrabot": {
+      "found": true,
+      "anchors": [
+        "ultrabot",
+        "ultrabotImage",
+        "ultrabotIntro"
+      ],
+      "x": 0,
+      "y": 187,
+      "width": 1920,
+      "height": 2326.05,
+      "start": 187,
+      "end": 2513.05,
+      "layout": {
+        "display": "block",
+        "position": "static",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 0,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 3
+    },
+    "wideImage": {
+      "found": false,
+      "anchors": [
+        "wideImage"
+      ]
+    },
+    "features": {
+      "found": false,
+      "anchors": [
+        "safety",
+        "autonomousNavigation",
+        "criticalZoneCoverage",
+        "setAndForget"
+      ]
+    },
+    "innovation": {
+      "found": false,
+      "anchors": [
+        "innovation",
+        "innovationImage"
+      ]
+    },
+    "whatWeDo": {
+      "found": false,
+      "anchors": [
+        "whatWeDo",
+        "engineersImage"
+      ]
+    }
+  },
+  "regionsValidated": {
+    "navbar": {
+      "found": true,
+      "anchors": [],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "navbar"
+      },
+      "x": 0,
+      "y": 50,
+      "width": 1920,
+      "height": 143
+    },
+    "hero": {
+      "found": true,
+      "anchors": [
+        "hero",
+        "subtitle",
+        "heroImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "heroImage"
+      },
+      "x": 0,
+      "y": 187,
+      "width": 1920,
+      "height": 646
+    },
+    "reeman": {
+      "found": true,
+      "anchors": [
+        "reemanImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "reemanImage"
+      },
+      "x": 605.5,
+      "y": 867,
+      "width": 709,
+      "height": 431
+    },
+    "pharmarobot": {
+      "found": true,
+      "anchors": [
+        "pharmarobot",
+        "pharmaImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "pharmaImage"
+      },
+      "x": 562,
+      "y": 1383,
+      "width": 313,
+      "height": 399
+    },
+    "ultrabot": {
+      "found": true,
+      "anchors": [
+        "ultrabot",
+        "ultrabotImage",
+        "ultrabotIntro"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "ultrabotImage"
+      },
+      "x": 631,
+      "y": 1819,
+      "width": 658,
+      "height": 445
+    },
+    "wideImage": {
+      "found": false,
+      "anchors": [
+        "wideImage"
+      ],
+      "missingAnchors": [
+        "wideImage"
+      ],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "wideImage"
+      }
+    },
+    "features": {
+      "found": false,
+      "anchors": [
+        "safety",
+        "autonomousNavigation",
+        "criticalZoneCoverage",
+        "setAndForget"
+      ],
+      "missingAnchors": [
+        "safety",
+        "autonomousNavigation",
+        "criticalZoneCoverage",
+        "setAndForget"
+      ],
+      "rectSource": {
+        "type": "anchorBounds"
+      }
+    },
+    "innovation": {
+      "found": false,
+      "anchors": [
+        "innovation",
+        "innovationImage"
+      ],
+      "missingAnchors": [
+        "innovation",
+        "innovationImage"
+      ],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "innovationImage"
+      }
+    },
+    "whatWeDo": {
+      "found": false,
+      "anchors": [
+        "whatWeDo",
+        "engineersImage"
+      ],
+      "missingAnchors": [
+        "whatWeDo",
+        "engineersImage"
+      ],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "engineersImage"
+      }
+    }
+  },
+  "texts": {
+    "hero": {
+      "found": true,
+      "matchCount": 1,
+      "x": 672.19,
+      "y": 533,
+      "width": 577.63,
+      "height": 23,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 16,
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(255, 255, 255)",
+      "opacity": "1"
+    },
+    "subtitle": {
+      "found": true,
+      "matchCount": 1,
+      "x": 554.76,
+      "y": 488,
+      "width": 812.48,
+      "height": 44,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 31,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(255, 255, 255)",
+      "opacity": "1"
+    },
+    "pharmarobot": {
+      "found": true,
+      "matchCount": 1,
+      "x": 901,
+      "y": 1369,
+      "width": 131.13,
+      "height": 22,
+      "lineCount": 1,
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": 20,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "none",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "0"
+    },
+    "ultrabot": {
+      "found": true,
+      "matchCount": 1,
+      "x": 631,
+      "y": 2374,
+      "width": 78.89,
+      "height": 22,
+      "lineCount": 1,
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": 20,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "none",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "0"
+    },
+    "ultrabotIntro": {
+      "found": true,
+      "matchCount": 1,
+      "x": 625.48,
+      "y": 2485.05,
+      "width": 668.02,
+      "height": 60,
+      "lineCount": 2,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 21,
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "1"
+    },
+    "safety": {
+      "found": false
+    },
+    "autonomousNavigation": {
+      "found": false
+    },
+    "criticalZoneCoverage": {
+      "found": false
+    },
+    "setAndForget": {
+      "found": false
+    },
+    "innovation": {
+      "found": false
+    },
+    "whatWeDo": {
+      "found": false
+    }
+  },
+  "images": {
+    "heroImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 0,
+      "y": 187,
+      "width": 1920,
+      "height": 646,
+      "isBackground": false,
+      "naturalWidth": 1920,
+      "naturalHeight": 646,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "http://localhost:4197/assets/hero-wix/hero-1920.avif",
+      "alt": "",
+      "wix": {
+        "crop": null,
+        "fill": null
+      }
+    },
+    "reemanImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 605.5,
+      "y": 867,
+      "width": 709,
+      "height": 431,
+      "isBackground": false,
+      "naturalWidth": 709,
+      "naturalHeight": 431,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "http://localhost:4197/assets/reeman-wix-709x431.avif",
+      "alt": "reeman_image.png",
+      "wix": {
+        "crop": null,
+        "fill": null
+      }
+    },
+    "pharmaImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 562,
+      "y": 1383,
+      "width": 313,
+      "height": 399,
+      "isBackground": false,
+      "naturalWidth": 313,
+      "naturalHeight": 399,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "http://localhost:4197/assets/pharmarobot-wix-313x399.avif",
+      "alt": "ChatGPT Image Sep 18, 2026, 03_55_34 PM.png",
+      "wix": {
+        "crop": null,
+        "fill": null
+      }
+    },
+    "ultrabotImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 631,
+      "y": 1819,
+      "width": 658,
+      "height": 445,
+      "isBackground": false,
+      "naturalWidth": 658,
+      "naturalHeight": 445,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "http://localhost:4197/assets/ultrabot-wix-658x445.avif",
+      "alt": "ChatGPT Image Sep 18, 2026, 04_14_49 PM_edited.jpg",
+      "wix": {
+        "crop": null,
+        "fill": null
+      }
+    },
+    "wideImage": {
+      "found": false
+    },
+    "innovationImage": {
+      "found": false
+    },
+    "engineersImage": {
+      "found": false
+    }
+  },
+  "buttons": [],
+  "imageList": [
+    {
+      "index": 0,
+      "area": "navbar",
+      "x": 217,
+      "y": 107,
+      "width": 192,
+      "height": 44,
+      "src": "http://localhost:4197/assets/logo-medrobots-wix.avif"
+    },
+    {
+      "index": 1,
+      "area": "main",
+      "x": 0,
+      "y": 187,
+      "width": 1920,
+      "height": 646,
+      "src": "http://localhost:4197/assets/hero-wix/hero-1920.avif"
+    },
+    {
+      "index": 2,
+      "area": "main",
+      "x": 605.5,
+      "y": 867,
+      "width": 709,
+      "height": 431,
+      "src": "http://localhost:4197/assets/reeman-wix-709x431.avif"
+    },
+    {
+      "index": 3,
+      "area": "main",
+      "x": 562,
+      "y": 1383,
+      "width": 313,
+      "height": 399,
+      "src": "http://localhost:4197/assets/pharmarobot-wix-313x399.avif"
+    },
+    {
+      "index": 4,
+      "area": "main",
+      "x": 631,
+      "y": 1819,
+      "width": 658,
+      "height": 445,
+      "src": "http://localhost:4197/assets/ultrabot-wix-658x445.avif"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    }
+  ],
+  "duplicates": {},
+  "captureHealth": {
+    "status": "PASS",
+    "serverMarker": {
+      "expected": "paulowebsite2",
+      "actual": "paulowebsite2"
+    },
+    "consoleErrors": [],
+    "failedRequests": [],
+    "badResponses": [],
+    "missingImplementedAnchors": [],
+    "documentDimensions": {
+      "width": 1920,
+      "height": 2885
+    },
+    "url": "http://localhost:4197/",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "browserVersion": "153.0.8010.12"
+  },
+  "fontDiagnostics": [
+    {
+      "family": "Poppins",
+      "weight": "400",
+      "sample": "We work to make the greatest technological advances",
+      "query": "400 16px \"Poppins\"",
+      "checkResult": true,
+      "loaded": true,
+      "entries": [
+        {
+          "family": "poppins-extralight",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "family": "Poppins",
+      "weight": "700",
+      "sample": "Robotic disinfection solutions for healthcare facilities",
+      "query": "700 16px \"Poppins\"",
+      "checkResult": true,
+      "loaded": true,
+      "entries": [
+        {
+          "family": "poppins-extralight",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "imageDiagnostics": [
+    {
+      "src": "http://localhost:4197/assets/logo-medrobots-wix.avif",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 192,
+      "naturalHeight": 44,
+      "renderedWidth": 192,
+      "renderedHeight": 44,
+      "objectFit": "contain",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "http://localhost:4197/assets/hero-wix/hero-1920.avif",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 1920,
+      "naturalHeight": 646,
+      "renderedWidth": 1920,
+      "renderedHeight": 646,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "http://localhost:4197/assets/reeman-wix-709x431.avif",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 709,
+      "naturalHeight": 431,
+      "renderedWidth": 709,
+      "renderedHeight": 431,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "http://localhost:4197/assets/pharmarobot-wix-313x399.avif",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 313,
+      "naturalHeight": 399,
+      "renderedWidth": 313,
+      "renderedHeight": 399,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "http://localhost:4197/assets/ultrabot-wix-658x445.avif",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 658,
+      "naturalHeight": 445,
+      "renderedWidth": 658,
+      "renderedHeight": 445,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    }
+  ],
+  "behaviors": {
+    "navbar": {
+      "chain": [
+        {
+          "tag": "header",
+          "id": "",
+          "position": "sticky",
+          "top": "50px",
+          "zIndex": "1000"
+        },
+        {
+          "tag": "div",
+          "id": "root",
+          "position": "static",
+          "top": "auto",
+          "zIndex": "auto"
+        },
+        {
+          "tag": "body",
+          "id": "",
+          "position": "static",
+          "top": "auto",
+          "zIndex": "auto"
+        }
+      ],
+      "atScrollY0": {
+        "top": 50,
+        "height": 143
+      },
+      "atScrollY1200": {
+        "top": 50,
+        "height": 143
+      },
+      "inferred": "stays in viewport on scroll (fixed/sticky-like)",
+      "heightChangesOnScroll": false
+    },
+    "hover": {
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "textDecoration": "underline",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "fontWeight": "400"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "textDecoration": "underline",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "fontWeight": "400"
+      }
+    },
+    "more": {
+      "found": false
+    }
+  },
+  "animationsAtLoad": {
+    "note": "state at load, before scrolling; scroll-triggered entrance animations are not captured here",
+    "runningCount": 0,
+    "running": [],
+    "motionAttributeElements": []
+  }
+}

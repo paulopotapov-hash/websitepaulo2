@@ -1,0 +1,2772 @@
+{
+  "schemaVersion": 2,
+  "metricSchemaVersion": 2,
+  "configFingerprint": "sha256:384e4dc746104d0de8cd457abaedcbb4cb16585f2fc9e13f0b5f2cbafd5a1017",
+  "compatibility": {
+    "schemaVersion": 2,
+    "metricSchemaVersion": 2,
+    "anchors": {
+      "hero": {
+        "kind": "text",
+        "wix": {
+          "textStartsWith": "We work to make the greatest technological advances"
+        }
+      },
+      "heroImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "11062b_79271b7012564ed497d2774a895ab7fdf000"
+        },
+        "react": {
+          "selector": ".hero-image"
+        }
+      },
+      "subtitle": {
+        "kind": "text",
+        "wix": {
+          "textStartsWith": "Robotic disinfection solutions"
+        }
+      },
+      "reemanImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_ebe792615c2b41d3835fc2038a64627f"
+        },
+        "react": {
+          "selector": ".intro-reeman-image"
+        }
+      },
+      "pharmarobot": {
+        "kind": "text",
+        "wix": {
+          "textExact": "PharmaRobot"
+        },
+        "react": {
+          "selector": ".pharmarobot-title"
+        }
+      },
+      "pharmaImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_5ccaff505c0f4fab806bcda66bc3a164"
+        },
+        "react": {
+          "selector": ".pharmarobot-image"
+        }
+      },
+      "ultrabot": {
+        "kind": "text",
+        "wix": {
+          "textExact": "UltraBot"
+        },
+        "react": {
+          "selector": ".ultrabot-title"
+        }
+      },
+      "ultrabotImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_de1c1e1290ae46199dc03b7d9211ec0b"
+        },
+        "react": {
+          "selector": ".ultrabot-image"
+        }
+      },
+      "ultrabotIntro": {
+        "kind": "text",
+        "wix": {
+          "textStartsWith": "Introducing the UltraBot"
+        },
+        "react": {
+          "selector": ".ultrabot-intro"
+        }
+      },
+      "wideImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_9866e3f7762646c6be5f033e69c27c7b"
+        }
+      },
+      "safety": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Safety"
+        }
+      },
+      "autonomousNavigation": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Autonomous Navigation"
+        }
+      },
+      "criticalZoneCoverage": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Critical Zone Coverage"
+        }
+      },
+      "setAndForget": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Set and Forget"
+        }
+      },
+      "innovation": {
+        "kind": "text",
+        "wix": {
+          "textExact": "Innovation"
+        }
+      },
+      "innovationImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "7498c2_45c6ceb8135746fba2ba48a1c3ec2767"
+        }
+      },
+      "whatWeDo": {
+        "kind": "text",
+        "wix": {
+          "textExact": "What We Do"
+        }
+      },
+      "engineersImage": {
+        "kind": "image",
+        "wix": {
+          "imgSrcIncludes": "11062b_0b96bc1023ad478aa0e11510b179795e"
+        }
+      }
+    },
+    "sectionsObserved": {
+      "hero": [
+        "hero",
+        "subtitle",
+        "heroImage"
+      ],
+      "intro": [
+        "reemanImage"
+      ],
+      "pharmarobot": [
+        "pharmarobot",
+        "pharmaImage"
+      ],
+      "ultrabot": [
+        "ultrabot",
+        "ultrabotImage",
+        "ultrabotIntro"
+      ],
+      "wideImage": [
+        "wideImage"
+      ],
+      "features": [
+        "safety",
+        "autonomousNavigation",
+        "criticalZoneCoverage",
+        "setAndForget"
+      ],
+      "innovation": [
+        "innovation",
+        "innovationImage"
+      ],
+      "whatWeDo": [
+        "whatWeDo",
+        "engineersImage"
+      ]
+    },
+    "regions": {
+      "navbar": {
+        "rect": {
+          "type": "navbar"
+        },
+        "anchors": []
+      },
+      "hero": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "heroImage"
+        },
+        "anchors": [
+          "hero",
+          "subtitle",
+          "heroImage"
+        ]
+      },
+      "reeman": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "reemanImage"
+        },
+        "anchors": [
+          "reemanImage"
+        ]
+      },
+      "pharmarobot": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "pharmaImage"
+        },
+        "anchors": [
+          "pharmarobot",
+          "pharmaImage"
+        ]
+      },
+      "ultrabot": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "ultrabotImage"
+        },
+        "anchors": [
+          "ultrabot",
+          "ultrabotImage",
+          "ultrabotIntro"
+        ]
+      },
+      "wideImage": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "wideImage"
+        },
+        "anchors": [
+          "wideImage"
+        ]
+      },
+      "features": {
+        "rect": {
+          "type": "anchorBounds"
+        },
+        "anchors": [
+          "safety",
+          "autonomousNavigation",
+          "criticalZoneCoverage",
+          "setAndForget"
+        ]
+      },
+      "innovation": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "innovationImage"
+        },
+        "anchors": [
+          "innovation",
+          "innovationImage"
+        ]
+      },
+      "whatWeDo": {
+        "rect": {
+          "type": "anchor",
+          "anchor": "engineersImage"
+        },
+        "anchors": [
+          "whatWeDo",
+          "engineersImage"
+        ]
+      }
+    },
+    "implementedRegions": [
+      "navbar",
+      "hero",
+      "reeman",
+      "pharmarobot",
+      "ultrabot"
+    ],
+    "chromeSelectors": {
+      "wix": {
+        "navbar": "header#SITE_HEADER, header",
+        "footer": "footer#SITE_FOOTER, footer"
+      },
+      "react": {
+        "navbar": "[data-fidelity=\"navbar\"]",
+        "footer": "[data-fidelity=\"footer\"]"
+      }
+    },
+    "normalization": {
+      "hideSelectors": {
+        "wix": [
+          "#WIX_ADS"
+        ],
+        "react": []
+      },
+      "css": "*,*::before,*::after{animation-duration:0s!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:0s!important;transition-delay:0s!important;scroll-behavior:auto!important;caret-color:transparent!important}",
+      "scrollStepRatio": 0.5,
+      "scrollWaitMs": 150,
+      "saveHtmlSnapshot": {
+        "wix": true,
+        "react": false
+      },
+      "chromiumArgs": [
+        "--font-render-hinting=none",
+        "--disable-lcd-text"
+      ]
+    },
+    "requiredFonts": [
+      {
+        "family": "Poppins",
+        "weight": "400",
+        "sample": "We work to make the greatest technological advances"
+      },
+      {
+        "family": "Poppins",
+        "weight": "700",
+        "sample": "Robotic disinfection solutions for healthcare facilities"
+      }
+    ],
+    "comparison": {
+      "pixel": {
+        "threshold": 0.1,
+        "includeAA": true,
+        "maxMismatchPercent": 1,
+        "sectionMaxMismatchPercent": 1
+      },
+      "toleranceRules": [
+        {
+          "match": "/\\.(src|alt|currentSrc|naturalWidth|naturalHeight|matchCount|wix)(\\.|$)/",
+          "kind": "skip",
+          "note": "asset URLs / Wix-only crop info"
+        },
+        {
+          "match": "/\\.(fontFamily|fontSize|fontWeight|lineHeight|letterSpacing|textAlign|color|textTransform|textShadow|textStroke|opacity|text|objectFit|objectPosition|naturalWidth|naturalHeight|display|position|flexDirection|gridTemplateColumns|justifyContent|alignItems|backgroundColor|backgroundSize|backgroundPosition|lineCount|found)$|^global\\.(visibleImageCount|navItemCount|sectionsFound)$/",
+          "kind": "exact",
+          "note": "typography & discrete values must match exactly"
+        },
+        {
+          "match": "/^global\\.totalHeight$/",
+          "kind": "numeric",
+          "tolerance": 5,
+          "note": "total page height"
+        },
+        {
+          "match": "/^global\\.sectionsObservedFound$/",
+          "kind": "skip",
+          "note": "diagnostic LCA observation only"
+        },
+        {
+          "match": "/^sections\\.[^.]+\\.(height|end)$/",
+          "kind": "numeric",
+          "tolerance": 2,
+          "note": "section height"
+        },
+        {
+          "match": "/^texts\\.[^.]+\\.(x|y|width|height)$/",
+          "kind": "numeric",
+          "tolerance": 2,
+          "note": "text position"
+        },
+        {
+          "match": "/\\.(x|y|width|height)$/",
+          "kind": "numeric",
+          "tolerance": 1
+        },
+        {
+          "match": "/(margin|padding)(Top|Right|Bottom|Left)$|\\.(gap|rowGap|columnGap)$|[rR]adius/",
+          "kind": "numeric",
+          "tolerance": 1
+        }
+      ]
+    },
+    "serverMarker": {
+      "selector": "meta[name=\"fidelity-build\"]",
+      "content": "paulowebsite2"
+    },
+    "deviceScaleFactor": 1,
+    "viewports": [
+      {
+        "name": "1920",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "name": "1440",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "name": "1280",
+        "width": 1280,
+        "height": 800
+      }
+    ],
+    "playwrightVersion": "1.63.0",
+    "browserVersion": "153.0.8010.12"
+  },
+  "source": "wix",
+  "url": "https://romeu848.wixsite.com/website-2",
+  "page": "/",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "deviceScaleFactor": 1,
+  "timestamp": "2026-09-30T15:13:33.455Z",
+  "playwrightVersion": "1.63.0",
+  "browserVersion": "153.0.8010.12",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "normalization": {
+    "hiddenSelectors": [
+      "#WIX_ADS"
+    ],
+    "hiddenElementHeights": {
+      "#WIX_ADS": 50
+    },
+    "totalHeightBeforeHide": 5752,
+    "totalHeightAfterNormalization": 5754,
+    "navbarTopBeforeHide": 50,
+    "navbarTopAfterNormalization": 50,
+    "css": "*,*::before,*::after{animation-duration:0s!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:0s!important;transition-delay:0s!important;scroll-behavior:auto!important;caret-color:transparent!important}",
+    "lazyLoadScroll": {
+      "stepRatio": 0.5,
+      "waitMs": 150
+    },
+    "screenshot": {
+      "fullPage": true,
+      "animations": "disabled",
+      "caret": "hide",
+      "scale": "css"
+    }
+  },
+  "screenshot": {
+    "path": "fidelity/screenshots/reference/home-1440.png",
+    "width": 1440,
+    "height": 5754
+  },
+  "metricDefinitions": {
+    "coordinates": "x/y in CSS px relative to the document (rect + scroll offset), device scale factor 1",
+    "global.totalHeight": "document.documentElement.scrollHeight",
+    "global.scrollWidth": "document.documentElement.scrollWidth",
+    "sections.<name>": "bounding box of the container found by climbing from the common ancestor of the section anchors until another section anchor / navbar / footer would be included",
+    "texts.<name>": "Range.getBoundingClientRect() over the matched text node + computed style of its parent element",
+    "images.<name>": "bounding box + computed object-fit/position/radius of the matched <img> (or background element)",
+    "nav.items": "visible links/buttons inside the navbar; gaps = next.x - (prev.x + prev.width)",
+    "behaviors / fonts / duplicates / animationsAtLoad": "reference-only observations, not compared"
+  },
+  "global": {
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "scrollWidth": 1440,
+    "totalHeight": 5754,
+    "navbarHeight": 143,
+    "footerHeight": 372,
+    "visibleImageCount": 11,
+    "navItemCount": 5,
+    "sectionsObservedFound": 8
+  },
+  "nav": {
+    "x": 0,
+    "y": 50,
+    "width": 1440,
+    "height": 143,
+    "position": "sticky",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "items": [
+      {
+        "text": "UltraBot",
+        "x": 782,
+        "y": 93,
+        "width": 87,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      },
+      {
+        "text": "Benefits",
+        "x": 869,
+        "y": 93,
+        "width": 87,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      },
+      {
+        "text": "The Company",
+        "x": 956,
+        "y": 93,
+        "width": 134,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      },
+      {
+        "text": "Project",
+        "x": 1090,
+        "y": 93,
+        "width": 80,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      },
+      {
+        "text": "Contacts",
+        "x": 1170,
+        "y": 93,
+        "width": 98,
+        "height": 50,
+        "fontFamily": "poppins-extralight, poppins, sans-serif",
+        "fontSize": 15,
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 238)",
+        "textTransform": "none"
+      }
+    ],
+    "gaps": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "logo": {
+      "x": 217,
+      "y": 107,
+      "width": 192,
+      "height": 44,
+      "naturalWidth": 192,
+      "naturalHeight": 44
+    }
+  },
+  "footer": {
+    "x": 0,
+    "y": 5382.06,
+    "width": 1440,
+    "height": 372,
+    "layout": {
+      "display": "block",
+      "position": "relative",
+      "marginTop": 0,
+      "marginRight": 0,
+      "marginBottom": 0,
+      "marginLeft": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "gap": "normal",
+      "rowGap": "normal",
+      "columnGap": "normal",
+      "maxWidth": "none",
+      "minWidth": 0,
+      "flexDirection": "row",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gridTemplateColumns": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    }
+  },
+  "sectionsObserved": {
+    "hero": {
+      "found": true,
+      "anchors": [
+        "hero",
+        "subtitle",
+        "heroImage"
+      ],
+      "x": 0,
+      "y": 193,
+      "width": 1440,
+      "height": 640,
+      "start": 193,
+      "end": 833,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 980,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 3
+    },
+    "intro": {
+      "found": true,
+      "anchors": [
+        "reemanImage"
+      ],
+      "x": 0,
+      "y": 833,
+      "width": 1440,
+      "height": 500,
+      "start": 833,
+      "end": 1333,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 980,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 1
+    },
+    "pharmarobot": {
+      "found": true,
+      "anchors": [
+        "pharmarobot",
+        "pharmaImage"
+      ],
+      "x": 0,
+      "y": 1333,
+      "width": 1440,
+      "height": 459,
+      "start": 1333,
+      "end": 1792,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 980,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 2
+    },
+    "ultrabot": {
+      "found": true,
+      "anchors": [
+        "ultrabot",
+        "ultrabotImage",
+        "ultrabotIntro"
+      ],
+      "x": 0,
+      "y": 193,
+      "width": 1440,
+      "height": 5189.06,
+      "start": 193,
+      "end": 5382.06,
+      "layout": {
+        "display": "grid",
+        "position": "static",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 0,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "1440px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 3
+    },
+    "wideImage": {
+      "found": true,
+      "anchors": [
+        "wideImage"
+      ],
+      "x": 230,
+      "y": 2613.06,
+      "width": 979,
+      "height": 428,
+      "start": 2613.06,
+      "end": 3041.06,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 64,
+        "marginLeft": 230,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": "auto",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 1
+    },
+    "features": {
+      "found": true,
+      "anchors": [
+        "safety",
+        "autonomousNavigation",
+        "criticalZoneCoverage",
+        "setAndForget"
+      ],
+      "x": 0,
+      "y": 2292,
+      "width": 1440,
+      "height": 1320.06,
+      "start": 2292,
+      "end": 3612.06,
+      "layout": {
+        "display": "grid",
+        "position": "static",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 0,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "1440px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 4
+    },
+    "innovation": {
+      "found": true,
+      "anchors": [
+        "innovation",
+        "innovationImage"
+      ],
+      "x": 0,
+      "y": 3650.06,
+      "width": 1440,
+      "height": 765,
+      "start": 3650.06,
+      "end": 4415.06,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 980,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 2
+    },
+    "whatWeDo": {
+      "found": true,
+      "anchors": [
+        "whatWeDo",
+        "engineersImage"
+      ],
+      "x": 0,
+      "y": 4415.06,
+      "width": 1440,
+      "height": 967,
+      "start": 4415.06,
+      "end": 5382.06,
+      "layout": {
+        "display": "block",
+        "position": "relative",
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "gap": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "maxWidth": "none",
+        "minWidth": 980,
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "foundAnchors": 2
+    }
+  },
+  "regionsValidated": {
+    "navbar": {
+      "found": true,
+      "anchors": [],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "navbar"
+      },
+      "x": 0,
+      "y": 50,
+      "width": 1440,
+      "height": 143
+    },
+    "hero": {
+      "found": true,
+      "anchors": [
+        "hero",
+        "subtitle",
+        "heroImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "heroImage"
+      },
+      "x": 0,
+      "y": 187,
+      "width": 1440,
+      "height": 646
+    },
+    "reeman": {
+      "found": true,
+      "anchors": [
+        "reemanImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "reemanImage"
+      },
+      "x": 365,
+      "y": 867,
+      "width": 709,
+      "height": 431
+    },
+    "pharmarobot": {
+      "found": true,
+      "anchors": [
+        "pharmarobot",
+        "pharmaImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "pharmaImage"
+      },
+      "x": 322,
+      "y": 1383,
+      "width": 313,
+      "height": 399
+    },
+    "ultrabot": {
+      "found": true,
+      "anchors": [
+        "ultrabot",
+        "ultrabotImage",
+        "ultrabotIntro"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "ultrabotImage"
+      },
+      "x": 391,
+      "y": 1819,
+      "width": 658,
+      "height": 445
+    },
+    "wideImage": {
+      "found": true,
+      "anchors": [
+        "wideImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "wideImage"
+      },
+      "x": 230,
+      "y": 2613.06,
+      "width": 979,
+      "height": 428
+    },
+    "features": {
+      "found": true,
+      "anchors": [
+        "safety",
+        "autonomousNavigation",
+        "criticalZoneCoverage",
+        "setAndForget"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchorBounds"
+      },
+      "x": 236,
+      "y": 3106.06,
+      "width": 374.7,
+      "height": 392
+    },
+    "innovation": {
+      "found": true,
+      "anchors": [
+        "innovation",
+        "innovationImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "innovationImage"
+      },
+      "x": 429,
+      "y": 3650.06,
+      "width": 542,
+      "height": 512
+    },
+    "whatWeDo": {
+      "found": true,
+      "anchors": [
+        "whatWeDo",
+        "engineersImage"
+      ],
+      "missingAnchors": [],
+      "rectSource": {
+        "type": "anchor",
+        "anchor": "engineersImage"
+      },
+      "x": 229,
+      "y": 4626.06,
+      "width": 981,
+      "height": 711
+    }
+  },
+  "texts": {
+    "hero": {
+      "found": true,
+      "matchCount": 1,
+      "x": 432.19,
+      "y": 533,
+      "width": 577.63,
+      "height": 23,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 16,
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(255, 255, 255)",
+      "opacity": "1"
+    },
+    "subtitle": {
+      "found": true,
+      "matchCount": 1,
+      "x": 314.75,
+      "y": 488,
+      "width": 812.48,
+      "height": 44,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 31,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(255, 255, 255)",
+      "opacity": "1"
+    },
+    "pharmarobot": {
+      "found": true,
+      "matchCount": 4,
+      "x": 661,
+      "y": 1369,
+      "width": 131.13,
+      "height": 22,
+      "lineCount": 1,
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": 20,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "none",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "0"
+    },
+    "ultrabot": {
+      "found": true,
+      "matchCount": 4,
+      "x": 391,
+      "y": 2374,
+      "width": 78.89,
+      "height": 22,
+      "lineCount": 1,
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": 20,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "none",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "0"
+    },
+    "ultrabotIntro": {
+      "found": true,
+      "matchCount": 1,
+      "x": 385.48,
+      "y": 2484.06,
+      "width": 668.02,
+      "height": 29,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 21,
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "1"
+    },
+    "safety": {
+      "found": true,
+      "matchCount": 1,
+      "x": 236,
+      "y": 3106.06,
+      "width": 97.53,
+      "height": 44,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 31,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "1"
+    },
+    "autonomousNavigation": {
+      "found": true,
+      "matchCount": 1,
+      "x": 236,
+      "y": 3222.06,
+      "width": 374.7,
+      "height": 44,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 31,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "1"
+    },
+    "criticalZoneCoverage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 236,
+      "y": 3338.06,
+      "width": 354.16,
+      "height": 44,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 31,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "1"
+    },
+    "setAndForget": {
+      "found": true,
+      "matchCount": 1,
+      "x": 236,
+      "y": 3454.06,
+      "width": 224.91,
+      "height": 44,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 31,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "1"
+    },
+    "innovation": {
+      "found": true,
+      "matchCount": 1,
+      "x": 617.75,
+      "y": 4201.06,
+      "width": 164.5,
+      "height": 44,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 31,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "1"
+    },
+    "whatWeDo": {
+      "found": true,
+      "matchCount": 1,
+      "x": 625.19,
+      "y": 4448.06,
+      "width": 189.61,
+      "height": 44,
+      "lineCount": 1,
+      "fontFamily": "poppins-extralight, poppins, sans-serif",
+      "fontSize": 31,
+      "fontWeight": "700",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "color": "rgb(0, 0, 0)",
+      "textTransform": "none",
+      "textShadow": "rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+      "textStroke": "0px rgb(0, 0, 0)",
+      "opacity": "1"
+    }
+  },
+  "images": {
+    "heroImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 0,
+      "y": 187,
+      "width": 1440,
+      "height": 646,
+      "isBackground": false,
+      "naturalWidth": 1440,
+      "naturalHeight": 646,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "https://static.wixstatic.com/media/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg/v1/fill/w_1440,h_646,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg",
+      "alt": "",
+      "wix": {
+        "crop": null,
+        "fill": {
+          "w": 1440,
+          "h": 646
+        }
+      }
+    },
+    "reemanImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 365,
+      "y": 867,
+      "width": 709,
+      "height": 431,
+      "isBackground": false,
+      "naturalWidth": 709,
+      "naturalHeight": 431,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "https://static.wixstatic.com/media/7498c2_ebe792615c2b41d3835fc2038a64627f~mv2.png/v1/fill/w_709,h_431,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/reeman_image.png",
+      "alt": "reeman_image.png",
+      "wix": {
+        "crop": null,
+        "fill": {
+          "w": 709,
+          "h": 431
+        }
+      }
+    },
+    "pharmaImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 322,
+      "y": 1383,
+      "width": 313,
+      "height": 399,
+      "isBackground": false,
+      "naturalWidth": 313,
+      "naturalHeight": 399,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "https://static.wixstatic.com/media/7498c2_5ccaff505c0f4fab806bcda66bc3a164~mv2.png/v1/fill/w_313,h_399,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2018%2C%202026%2C%2003_55_34%20PM.png",
+      "alt": "ChatGPT Image Sep 18, 2026, 03_55_34 PM.png",
+      "wix": {
+        "crop": null,
+        "fill": {
+          "w": 313,
+          "h": 399
+        }
+      }
+    },
+    "ultrabotImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 391,
+      "y": 1819,
+      "width": 658,
+      "height": 445,
+      "isBackground": false,
+      "naturalWidth": 658,
+      "naturalHeight": 445,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "https://static.wixstatic.com/media/7498c2_de1c1e1290ae46199dc03b7d9211ec0b~mv2.jpg/v1/fill/w_658,h_445,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2018%2C%202026%2C%2004_14_49%20PM_edited.jpg",
+      "alt": "ChatGPT Image Sep 18, 2026, 04_14_49 PM_edited.jpg",
+      "wix": {
+        "crop": null,
+        "fill": {
+          "w": 658,
+          "h": 445
+        }
+      }
+    },
+    "wideImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 230,
+      "y": 2613.06,
+      "width": 979,
+      "height": 428,
+      "isBackground": false,
+      "naturalWidth": 979,
+      "naturalHeight": 428,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "https://static.wixstatic.com/media/7498c2_9866e3f7762646c6be5f033e69c27c7b~mv2.png/v1/fill/w_979,h_428,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/eebf1854-f653-426f-83f4-bd61e1ee6a5f_edi.png",
+      "alt": "eebf1854-f653-426f-83f4-bd61e1ee6a5f_edi",
+      "wix": {
+        "crop": null,
+        "fill": {
+          "w": 979,
+          "h": 428
+        }
+      }
+    },
+    "innovationImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 429,
+      "y": 3650.06,
+      "width": 542,
+      "height": 512,
+      "isBackground": false,
+      "naturalWidth": 542,
+      "naturalHeight": 512,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "https://static.wixstatic.com/media/7498c2_45c6ceb8135746fba2ba48a1c3ec2767~mv2.jpg/v1/crop/x_0,y_565,w_7913,h_4463/fill/w_542,h_512,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/pexels-thisisengineering-3862614.jpg",
+      "alt": "pexels-thisisengineering-3862614.jpg",
+      "wix": {
+        "crop": {
+          "x": 0,
+          "y": 565,
+          "w": 7913,
+          "h": 4463
+        },
+        "fill": {
+          "w": 542,
+          "h": 512
+        }
+      }
+    },
+    "engineersImage": {
+      "found": true,
+      "matchCount": 1,
+      "x": 229,
+      "y": 4626.06,
+      "width": 981,
+      "height": 711,
+      "isBackground": false,
+      "naturalWidth": 981,
+      "naturalHeight": 711,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "borderRadius": 0,
+      "backgroundSize": null,
+      "backgroundPosition": null,
+      "src": "https://static.wixstatic.com/media/11062b_0b96bc1023ad478aa0e11510b179795e~mv2.jpeg/v1/crop/x_269,y_0,w_6181,h_4480/fill/w_981,h_711,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Engineers.jpeg",
+      "alt": "Engineers",
+      "wix": {
+        "crop": {
+          "x": 269,
+          "y": 0,
+          "w": 6181,
+          "h": 4480
+        },
+        "fill": {
+          "w": 981,
+          "h": 711
+        }
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "",
+      "x": 922.5,
+      "y": 1394.88,
+      "width": 1,
+      "height": 18,
+      "fontFamily": "Arial",
+      "fontSize": 13.33,
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "borderRadius": "50%"
+    },
+    {
+      "text": "",
+      "x": 719.5,
+      "y": 2428.53,
+      "width": 1,
+      "height": 18,
+      "fontFamily": "Arial",
+      "fontSize": 13.33,
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "borderRadius": "50%"
+    }
+  ],
+  "imageList": [
+    {
+      "index": 0,
+      "area": "navbar",
+      "x": 217,
+      "y": 107,
+      "width": 192,
+      "height": 44,
+      "src": "https://static.wixstatic.com/media/7498c2_6c70c6186f7247a5bbb46a2ad8d769ca~mv2.png/v1/fill/w_192,h_44,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2016%2C%202026%2C%2010_34_26%20AM.png"
+    },
+    {
+      "index": 1,
+      "area": "main",
+      "x": 0,
+      "y": 187,
+      "width": 1440,
+      "height": 646,
+      "src": "https://static.wixstatic.com/media/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg/v1/fill/w_1440,h_646,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg"
+    },
+    {
+      "index": 2,
+      "area": "main",
+      "x": 365,
+      "y": 867,
+      "width": 709,
+      "height": 431,
+      "src": "https://static.wixstatic.com/media/7498c2_ebe792615c2b41d3835fc2038a64627f~mv2.png/v1/fill/w_709,h_431,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/reeman_image.png"
+    },
+    {
+      "index": 3,
+      "area": "main",
+      "x": 322,
+      "y": 1383,
+      "width": 313,
+      "height": 399,
+      "src": "https://static.wixstatic.com/media/7498c2_5ccaff505c0f4fab806bcda66bc3a164~mv2.png/v1/fill/w_313,h_399,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2018%2C%202026%2C%2003_55_34%20PM.png"
+    },
+    {
+      "index": 4,
+      "area": "main",
+      "x": 661,
+      "y": 1369,
+      "width": 524,
+      "height": 70,
+      "src": "https://static.wixstatic.com/media/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg/v1/fill/w_524,h_70,al_c,q_80,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg"
+    },
+    {
+      "index": 5,
+      "area": "main",
+      "x": 391,
+      "y": 1819,
+      "width": 658,
+      "height": 445,
+      "src": "https://static.wixstatic.com/media/7498c2_de1c1e1290ae46199dc03b7d9211ec0b~mv2.jpg/v1/fill/w_658,h_445,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2018%2C%202026%2C%2004_14_49%20PM_edited.jpg"
+    },
+    {
+      "index": 6,
+      "area": "main",
+      "x": 391,
+      "y": 2374,
+      "width": 658,
+      "height": 127,
+      "src": "https://static.wixstatic.com/media/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg/v1/fill/w_658,h_127,al_c,q_80,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg"
+    },
+    {
+      "index": 7,
+      "area": "main",
+      "x": 230,
+      "y": 2613.06,
+      "width": 979,
+      "height": 428,
+      "src": "https://static.wixstatic.com/media/7498c2_9866e3f7762646c6be5f033e69c27c7b~mv2.png/v1/fill/w_979,h_428,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/eebf1854-f653-426f-83f4-bd61e1ee6a5f_edi.png"
+    },
+    {
+      "index": 8,
+      "area": "main",
+      "x": 429,
+      "y": 3650.06,
+      "width": 542,
+      "height": 512,
+      "src": "https://static.wixstatic.com/media/7498c2_45c6ceb8135746fba2ba48a1c3ec2767~mv2.jpg/v1/crop/x_0,y_565,w_7913,h_4463/fill/w_542,h_512,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/pexels-thisisengineering-3862614.jpg"
+    },
+    {
+      "index": 9,
+      "area": "main",
+      "x": 229,
+      "y": 4626.06,
+      "width": 981,
+      "height": 711,
+      "src": "https://static.wixstatic.com/media/11062b_0b96bc1023ad478aa0e11510b179795e~mv2.jpeg/v1/crop/x_269,y_0,w_6181,h_4480/fill/w_981,h_711,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Engineers.jpeg"
+    },
+    {
+      "index": 10,
+      "area": "footer",
+      "x": 230,
+      "y": 5388.06,
+      "width": 144,
+      "height": 54,
+      "src": "https://static.wixstatic.com/media/7498c2_2b1373c9224946f5ab24f8f15805e9a6~mv2.png/v1/fill/w_144,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2016%2C%202026%2C%2001_07_58%20PM.png"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "wixFreemiumFontW01-35Thin",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW01-45Ligh",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW01-55Roma",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW01-65Medi",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW02-35Thin",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW02-45Ligh",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW02-55Roma",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW02-65Medi",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW10-35Thin",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW10-45Ligh",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW10-65Medi",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "wixFreemiumFontW10-55Roma",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Madefor-Text",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "din-next-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "din-next-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "din-next-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "helvetica-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "helvetica-w01-light",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "open sans",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "open sans",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "open sans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "open sans",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins-semibold",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins-semibold",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins-semibold",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins-semibold",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "lulo-clean-w01-one-bold",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "lulo-clean-w01-one-bold",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "poppins-extralight",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    }
+  ],
+  "duplicates": {
+    "pharmarobot": {
+      "count": 4,
+      "headingTextContent": "PharmaRobot",
+      "instances": [
+        {
+          "tag": "h1",
+          "visible": true,
+          "ariaHidden": false,
+          "position": "absolute",
+          "opacity": "0",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": 661,
+            "y": 1369,
+            "width": 1,
+            "height": 23
+          }
+        },
+        {
+          "tag": "text",
+          "visible": false,
+          "ariaHidden": true,
+          "position": "static",
+          "opacity": "1",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": -267.84,
+            "y": 1369,
+            "width": 2157.69,
+            "height": 279
+          }
+        },
+        {
+          "tag": "text",
+          "visible": false,
+          "ariaHidden": true,
+          "position": "static",
+          "opacity": "1",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "tag": "text",
+          "visible": true,
+          "ariaHidden": true,
+          "position": "static",
+          "opacity": "1",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": 661.03,
+            "y": 1369,
+            "width": 523.94,
+            "height": 67
+          }
+        }
+      ]
+    },
+    "ultrabot": {
+      "count": 6,
+      "headingTextContent": "UltraBot",
+      "instances": [
+        {
+          "tag": "p",
+          "visible": true,
+          "ariaHidden": false,
+          "position": "static",
+          "opacity": "1",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": 787,
+            "y": 93,
+            "width": 76.94,
+            "height": 50
+          }
+        },
+        {
+          "tag": "h1",
+          "visible": true,
+          "ariaHidden": false,
+          "position": "absolute",
+          "opacity": "0",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": 391,
+            "y": 2374,
+            "width": 1,
+            "height": 23
+          }
+        },
+        {
+          "tag": "text",
+          "visible": false,
+          "ariaHidden": true,
+          "position": "static",
+          "opacity": "1",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": -192.95,
+            "y": 2374,
+            "width": 1467.91,
+            "height": 279
+          }
+        },
+        {
+          "tag": "text",
+          "visible": false,
+          "ariaHidden": true,
+          "position": "static",
+          "opacity": "1",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "tag": "text",
+          "visible": true,
+          "ariaHidden": true,
+          "position": "static",
+          "opacity": "1",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": 391.01,
+            "y": 2374,
+            "width": 657.98,
+            "height": 126
+          }
+        },
+        {
+          "tag": "a",
+          "visible": true,
+          "ariaHidden": false,
+          "position": "relative",
+          "opacity": "1",
+          "color": "rgb(0, 0, 0)",
+          "textShadow": "none",
+          "textStroke": "0px rgb(0, 0, 0)",
+          "rect": {
+            "x": 843,
+            "y": 5435.06,
+            "width": 150,
+            "height": 28
+          }
+        }
+      ]
+    }
+  },
+  "captureHealth": {
+    "status": "PASS",
+    "serverMarker": {
+      "expected": null,
+      "actual": "not-applicable"
+    },
+    "consoleErrors": [],
+    "failedRequests": [
+      {
+        "url": "https://panorama.wixapps.net/api/v1/bulklog",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://frog.wix.com/bolt-performance",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://frog.wix.com/bpm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://panorama.wixapps.net/api/v1/bulklog",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://panorama.wixapps.net/api/v1/bulklog",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://panorama.wixapps.net/api/v1/bulklog",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://frog.wix.com/bolt-performance",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://video.wixstatic.com/video/11062b_79271b7012564ed497d2774a895ab7fd/1080p/mp4/file.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "badResponses": [],
+    "missingImplementedAnchors": [],
+    "documentDimensions": {
+      "width": 1440,
+      "height": 5754
+    },
+    "url": "https://romeu848.wixsite.com/website-2",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "browserVersion": "153.0.8010.12"
+  },
+  "fontDiagnostics": [
+    {
+      "family": "Poppins",
+      "weight": "400",
+      "sample": "We work to make the greatest technological advances",
+      "query": "400 16px \"Poppins\"",
+      "checkResult": false,
+      "loaded": true,
+      "entries": [
+        {
+          "family": "poppins",
+          "weight": "400",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "400",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "400",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "400",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-extralight",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins-extralight",
+          "weight": "400",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-semibold",
+          "weight": "400",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-semibold",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "400",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "400",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "400",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "400",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-extralight",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins-extralight",
+          "weight": "400",
+          "style": "italic",
+          "status": "unloaded"
+        }
+      ]
+    },
+    {
+      "family": "Poppins",
+      "weight": "700",
+      "sample": "Robotic disinfection solutions for healthcare facilities",
+      "query": "700 16px \"Poppins\"",
+      "checkResult": false,
+      "loaded": true,
+      "entries": [
+        {
+          "family": "poppins",
+          "weight": "700",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "700",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "700",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "700",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-extralight",
+          "weight": "700",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-extralight",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins-semibold",
+          "weight": "700",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-semibold",
+          "weight": "700",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "700",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "700",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "700",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "weight": "700",
+          "style": "normal",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-extralight",
+          "weight": "700",
+          "style": "italic",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins-extralight",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "imageDiagnostics": [
+    {
+      "src": "https://static.wixstatic.com/media/7498c2_6c70c6186f7247a5bbb46a2ad8d769ca~mv2.png/v1/fill/w_192,h_44,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2016%2C%202026%2C%2010_34_26%20AM.png",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 192,
+      "naturalHeight": 44,
+      "renderedWidth": 192,
+      "renderedHeight": 44,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg/v1/fill/w_1440,h_646,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_79271b7012564ed497d2774a895ab7fdf000.jpg",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 1440,
+      "naturalHeight": 646,
+      "renderedWidth": 1440,
+      "renderedHeight": 646,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/7498c2_ebe792615c2b41d3835fc2038a64627f~mv2.png/v1/fill/w_709,h_431,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/reeman_image.png",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 709,
+      "naturalHeight": 431,
+      "renderedWidth": 709,
+      "renderedHeight": 431,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/7498c2_5ccaff505c0f4fab806bcda66bc3a164~mv2.png/v1/fill/w_313,h_399,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2018%2C%202026%2C%2003_55_34%20PM.png",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 313,
+      "naturalHeight": 399,
+      "renderedWidth": 313,
+      "renderedHeight": 399,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg/v1/fill/w_524,h_70,al_c,q_80,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 524,
+      "naturalHeight": 70,
+      "renderedWidth": 524,
+      "renderedHeight": 70,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/7498c2_de1c1e1290ae46199dc03b7d9211ec0b~mv2.jpg/v1/fill/w_658,h_445,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2018%2C%202026%2C%2004_14_49%20PM_edited.jpg",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 658,
+      "naturalHeight": 445,
+      "renderedWidth": 658,
+      "renderedHeight": 445,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg/v1/fill/w_658,h_127,al_c,q_80,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 658,
+      "naturalHeight": 127,
+      "renderedWidth": 658,
+      "renderedHeight": 127,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/7498c2_9866e3f7762646c6be5f033e69c27c7b~mv2.png/v1/fill/w_979,h_428,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/eebf1854-f653-426f-83f4-bd61e1ee6a5f_edi.png",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 979,
+      "naturalHeight": 428,
+      "renderedWidth": 979,
+      "renderedHeight": 428,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/7498c2_45c6ceb8135746fba2ba48a1c3ec2767~mv2.jpg/v1/crop/x_0,y_565,w_7913,h_4463/fill/w_542,h_512,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/pexels-thisisengineering-3862614.jpg",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 542,
+      "naturalHeight": 512,
+      "renderedWidth": 542,
+      "renderedHeight": 512,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/11062b_0b96bc1023ad478aa0e11510b179795e~mv2.jpeg/v1/crop/x_269,y_0,w_6181,h_4480/fill/w_981,h_711,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Engineers.jpeg",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 981,
+      "naturalHeight": 711,
+      "renderedWidth": 981,
+      "renderedHeight": 711,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/7498c2_2b1373c9224946f5ab24f8f15805e9a6~mv2.png/v1/fill/w_144,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ChatGPT%20Image%20Sep%2016%2C%202026%2C%2001_07_58%20PM.png",
+      "complete": true,
+      "decoded": true,
+      "decodeError": null,
+      "naturalWidth": 144,
+      "naturalHeight": 54,
+      "renderedWidth": 144,
+      "renderedHeight": 54,
+      "objectFit": "cover",
+      "objectPosition": "50% 50%"
+    }
+  ],
+  "behaviors": {
+    "navbar": {
+      "chain": [
+        {
+          "tag": "header",
+          "id": "SITE_HEADER",
+          "position": "sticky",
+          "top": "50px",
+          "zIndex": "51"
+        },
+        {
+          "tag": "div",
+          "id": "masterPage",
+          "position": "static",
+          "top": "auto",
+          "zIndex": "auto"
+        },
+        {
+          "tag": "div",
+          "id": "site-root",
+          "position": "relative",
+          "top": "50px",
+          "zIndex": "auto"
+        },
+        {
+          "tag": "div",
+          "id": "main_MF",
+          "position": "static",
+          "top": "auto",
+          "zIndex": "auto"
+        },
+        {
+          "tag": "div",
+          "id": "SITE_CONTAINER",
+          "position": "relative",
+          "top": "0px",
+          "zIndex": "auto"
+        },
+        {
+          "tag": "body",
+          "id": "",
+          "position": "static",
+          "top": "auto",
+          "zIndex": "auto"
+        }
+      ],
+      "atScrollY0": {
+        "top": 50,
+        "height": 143
+      },
+      "atScrollY1200": {
+        "top": -93,
+        "height": 143
+      },
+      "inferred": "scrolls away with the page",
+      "heightChangesOnScroll": false
+    },
+    "hover": {
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "textDecoration": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "fontWeight": "400"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "textDecoration": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "fontWeight": "400"
+      }
+    },
+    "more": {
+      "error": "TimeoutError: locator.hover: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('header#SITE_HEADER').getByText(/^More$/).first()\u001b[22m\n\u001b[2m    - locator resolved to <p tabindex=\"-1\" class=\"wGxoBM\" id=\"comp-ktv955x8__more__label\">More</p>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    19 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    }
+  },
+  "animationsAtLoad": {
+    "note": "state at load, before scrolling; scroll-triggered entrance animations are not captured here",
+    "runningCount": 0,
+    "running": [],
+    "motionAttributeElements": [
+      {
+        "el": "div#bgLayers_pageBackground_c1dmp",
+        "attrs": [
+          "data-motion-part=BG_LAYER pageBackground_c1dmp"
+        ]
+      },
+      {
+        "el": "div#bgMedia_pageBackground_c1dmp",
+        "attrs": [
+          "data-motion-part=BG_MEDIA pageBackground_c1dmp"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-kljks1ug",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-kljks1ug"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-kljks1ug",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-kljks1ug"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-kljks200",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-kljks200"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-kljks200",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-kljks200"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-m0dkgmmc3",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-m0dkgmmc3"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-m0dkgmmc3",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-m0dkgmmc3"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-ktv9x7n3",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-ktv9x7n3"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-ktv9x7n3",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-ktv9x7n3"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-ktv9x7pt",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-ktv9x7pt"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-ktv9x7pt",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-ktv9x7pt"
+        ]
+      },
+      {
+        "el": "wix-video#videoContainer_comp-ktv9x7pt",
+        "attrs": [
+          "data-motion-part=BG_IMG comp-ktv9x7pt"
+        ]
+      },
+      {
+        "el": "wow-image#comp-ktv9x7pt_img",
+        "attrs": [
+          "data-motion-part=BG_IMG comp-ktv9x7pt"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-mu72q1xq",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-mu72q1xq"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-mu72q1xq",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-mu72q1xq"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-mu72wlbf",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-mu72wlbf"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-mu72wlbf",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-mu72wlbf"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-mu730akd",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-mu730akd"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-mu730akd",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-mu730akd"
+        ]
+      },
+      {
+        "el": "wix-video#videoContainer_comp-mu730akd",
+        "attrs": [
+          "data-motion-part=BG_IMG comp-mu730akd"
+        ]
+      },
+      {
+        "el": "wow-image#comp-mu730akd_img",
+        "attrs": [
+          "data-motion-part=BG_IMG comp-mu730akd"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-mu731ail",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-mu731ail"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-mu731ail",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-mu731ail"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-m0dkgmmc5",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-m0dkgmmc5"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-m0dkgmmc5",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-m0dkgmmc5"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-m0dld8ti",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-m0dld8ti"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-m0dld8ti",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-m0dld8ti"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-m0dld96c",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-m0dld96c"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-m0dld96c",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-m0dld96c"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-m0dms9p1",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-m0dms9p1"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-m0dms9p1",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-m0dms9p1"
+        ]
+      },
+      {
+        "el": "wix-video#videoContainer_comp-m0dms9p1",
+        "attrs": [
+          "data-motion-part=BG_IMG comp-m0dms9p1"
+        ]
+      },
+      {
+        "el": "wow-image#comp-m0dms9p1_img",
+        "attrs": [
+          "data-motion-part=BG_IMG comp-m0dms9p1"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-m0dkgmmd",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-m0dkgmmd"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-m0dkgmmd",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-m0dkgmmd"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-ktvhy6kc",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-ktvhy6kc"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-ktvhy6kc",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-ktvhy6kc"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-ktvhy6mo",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-ktvhy6mo"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-ktvhy6mo",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-ktvhy6mo"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-m0dkgmmd1",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-m0dkgmmd1"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-m0dkgmmd1",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-m0dkgmmd1"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-ktvkee7f",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-ktvkee7f"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-ktvkee7f",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-ktvkee7f"
+        ]
+      },
+      {
+        "el": "div#bgLayers_comp-ktvkee8p",
+        "attrs": [
+          "data-motion-part=BG_LAYER comp-ktvkee8p"
+        ]
+      },
+      {
+        "el": "div#bgMedia_comp-ktvkee8p",
+        "attrs": [
+          "data-motion-part=BG_MEDIA comp-ktvkee8p"
+        ]
+      }
+    ]
+  }
+}
